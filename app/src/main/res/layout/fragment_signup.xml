@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="413dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/loginField"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:hint="Логин"
+            android:inputType="text"
+            android:maxLength="18"
+            android:maxLines="1"
+            android:text=""
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:maxLength="18"
+            android:maxLines="1"
+            android:text=""
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/RepasswordField"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Повторите пароль"
+            android:inputType="textPassword"
+            android:maxLength="18"
+            android:maxLines="1"
+            android:text=""
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/regButton"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:text="Зарегистрироваться"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+
+</FrameLayout>
